@@ -1,6 +1,6 @@
 # GPT-4 vision playground
 
-In the repository, I have presented simple cases where the gpt-4-vision-preview model can be used. Some of them are
+In the repository, I have presented simple cases where the **gpt-4-vision-preview** model can be used. Some of them are
 tasks that came to mind shortly after the release of this model.
 
 The analyses are not detailed; I am not processing a large amount of data – my main idea was to check the actual
