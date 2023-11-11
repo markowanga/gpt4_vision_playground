@@ -8,3 +8,6 @@ ludzie idący do pracy
 
 https://szachydzieciom.pl/?page_id=2013#1
 zgadka szachowa
+
+https://developers.mindee.com/docs/invoice-ocr
+invoice
