@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gpt4-vision-playgrund"
+version = "0.1.0"
+description = ""
+authors = ["Marcin Wątroba <marcin.watroba@pwr.edu.pl>"]
+readme = "README.md"
+packages = [{include = "gpt4_vision_playgrund"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^1.2.3"
+notebook = "^7.0.6"
+python-dotenv = "^1.0.0"
+gitpython = "^3.1.40"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
