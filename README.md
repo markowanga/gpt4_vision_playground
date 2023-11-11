@@ -1,13 +1,28 @@
 # GPT-4 vision playground
 
-https://buzz.gazeta.pl/buzz/13,182212,8412,sprawdz-czy-wiesz-kto-ma-pierwszenstwo-i-jak-zachowac-sie.html
-Kto ma pierwszeństwo
+In the repository, I have presented simple cases where the gpt-4-vision-preview model can be used. Some of them are
+tasks that came to mind shortly after the release of this model.
 
-https://brief.pl/czy-przyjemna-i-sensowna-praca-to-praca-idealna/
-ludzie idący do pracy
+The analyses are not detailed; I am not processing a large amount of data – my main idea was to check the actual
+capabilities of this model.
 
-https://szachydzieciom.pl/?page_id=2013#1
-zgadka szachowa
+I focus on three issues which are presented in separate notebooks:
 
-https://developers.mindee.com/docs/invoice-ocr
-invoice
+## Generating HTML skeleton based on a skeleton image
+
+On a simple HTML sketch, I tried to obtain an HTML page code that would reflect the sketch.
+`notebooks/generate_html_from_skeleton_image.ipynb`
+
+## Answering questions to images
+
+I checked what questions the chat is capable of answering – the results are impressive.
+`notebooks/qa_for_images.ipynb`
+
+## Data Extraction
+
+I saw how the model manages with OCR tasks and reading data from invoices.
+`notebooks/extract_data.ipynb`
+
+# More analysis
+
+For more analyse create an issue with task description.
