@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sample Page</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<style>
+    .fake-img {
+        background: #ddd;
+        width: 100%;
+        padding-top: 30%; /* This sets the height as a percentage of the width */
+        color: #666;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <header class="row mb-4">
+        <div class="col-3">
+            <div class="fake-img">Logo sample image</div>
+        </div>
+        <div class="col-6 text-center">
+            <h1 class="mt-2">Page Name</h1>
+        </div>
+        <div class="col-3">
+            <nav class="nav justify-content-end">
+                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#">Article</a>
+                <a class="nav-link" href="#">About</a>
+            </nav>
+        </div>
+    </header>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="p-3 border bg-light">
+                <h2 class="h4">Table of Contents</h2>
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a class="nav-link" href="#">Introduction</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Chapter 1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Chapter 2</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Conclusion</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="p-3 border bg-white">
+                <h2 class="h4">Main Content</h2>
+                <div class="fake-img">Main content image placeholder</div>
+                <h3>Section Heading</h3>
+                <p>This is a sample text for the main content area. Here, you can add paragraphs, lists, and other elements typically found in articles or web pages.</p>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+                <p>More content below the list. The layout is responsive and adapts to the screen size using Bootstrap columns.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -5,7 +5,7 @@ from dotenv import dotenv_values
 
 
 def get_openai_key() -> str:
-    get_env_variables()['']
+    return get_env_variables()['OPENAI_API_KEY']
 
 
 def get_git_root(path: Path = Path('.')) -> Path:
